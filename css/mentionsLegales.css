@@ -1,0 +1,16 @@
+/**************************************
+Mise en Page Mentions légales
+***************************************/
+
+#textLoi
+{
+    text-align: justify;
+    margin: auto;
+    margin-top: 10em;
+    width: 80%;
+}
+
+#mentionTitre
+{
+    text-align: center;
+}

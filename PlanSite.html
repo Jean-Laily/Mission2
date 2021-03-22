@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ABI - Plan du site</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <div class="m-left">
+                    <a href="AccueilConnecte.html"><img src="media/image/logo.png" id="logo"/></a>
+                    <h1><span class="abi">A</span>ctive <span class="abi">B</span >retagne <span class="abi">I</span>nformatique</h1>
+                </div>
+                <div class="m-right">
+                    <!-- ajout du menu de navigation en liste deroulante -->
+                    <div class="dropdown">
+                        <button class="dropbtn">Menu
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="ListeClient.html">Liste Client</a>
+                            <a id="addingCl" href="AjouterClient.html">Ajouter Client</a>
+                            <a href="ListeContact.html">Liste Contact</a>
+                            <a id="addingCo" href="AjouterContact.html">Ajouter Contact</a>
+                            <a href="Rechercher.html">Recherche</a>
+                        </div>
+                    </div> <!-- Fin du menu deroulante -->
+                    <div class="user">
+                        <img id="userlogo" src="media/image/user.png" ></im>
+                        <p id="username">User name</p>
+                    </div>
+                    <a href="index.html" id="deconnexion"><i class="fa fa-sign-out" aria-hidden="true"></i> Deconnexion</a>
+                </div>
+            </nav>
+        </header>
+            <div id="allPlan">
+                <div id="planSite">
+                <p>PLAN DU SITE</p>
+                <br>
+                    <a class="adding" href="AccueilConnecte.html">Accueil connecté</a>
+                    <a href="Accueil.html">Accueil</a>
+                    <a id="addingCl2" href="AjouterClient.html">Ajouter Client</a>
+                    <a id="addingCo2" href="AjouterContact.html">Ajouter Contact</a>
+                    <a href="Contact.html" target="_blank" >Contact</a>
+                    <a id = "detailsCli" href="DetailsClient.html">Details client</a>
+                    <a id = "detailsCo" href="DetailsContact.html">Details contact</a>
+                    <a href="ListeClient.html">Liste clients</a>
+                    <a href="ListeContact.html">Liste contacts</a>
+                    <a href="MentionsLegales.html" target="_blank" >Mentions legales</a>
+                    <a href="QuiSommeNous.html" target="_blank">Qui sommes nous?</a>
+                </div>
+                <div id="planPrison">
+                    <img src="media/image/Plan_sol_ancienne_prison_Guingamp.jpg" alt="Plan du site" />  
+                </div>
+            </div>
+        <footer>
+            <a target="_blank" href="MentionsLegales.html">Mentions légales</a> |
+            <a target="_blank" href="QuiSommeNous.html">Qui sommes-nous</a> |
+            <a target="_blank" href="Contact.html">Contact</a> |
+            <a target="_blank" href="Actualités.html">Actualités</a>
+        </footer>
+    </body>
+    <script type="module" src="./js/session.js"></script>
+</html>

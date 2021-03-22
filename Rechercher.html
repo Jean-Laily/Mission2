@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ABI - Rechercher</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <div class="m-left">
+                    <a href="AccueilConnecte.html"><img src="media/image/logo.png" id="logo"/></a>
+                    <h1><span class="abi">A</span>ctive <span class="abi">B</span >retagne <span class="abi">I</span>nformatique</h1>
+                </div>
+                <div class="m-right">
+                    <!-- ajout du menu de navigation en liste deroulante -->
+                    <div class="dropdown">
+                        <button class="dropbtn">Menu
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="ListeClient.html">Liste Client</a>
+                            <a id="addingCo3" href="AjouterClient.html">Ajouter Client</a>
+                            <a href="ListeContact.html">Liste Contact</a>
+                            <a id="addingCl3" href="AjouterContact.html">Ajouter Contact</a>
+                            <a href="Rechercher.html">Recherche</a>
+                        </div>
+                    </div> <!-- Fin du menu deroulante -->
+                    <div class="user">
+                        <img id="userlogo" src="media/image/user.png" ></im>
+                        <p id="username">User name</p>
+                    </div>
+                    <a href="index.html" id="deconnexion"><i class="fa fa-sign-out" aria-hidden="true"></i> Deconnexion</a>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <h1 class="message">Page de recherche</h1>
+            <form action="http://polenumerique.re/dl/dwwm2020/testerForm.php" method="POST" class="zoneAffichageSearch">
+                <div class="recherchePar">
+                    <p>Rechercher par nom, n°client, société ... </p>
+                    <input id="valeurRecherche" class="barreRecherche" type="search" name="search" required/>
+                    <br>
+                    <input id="btnSub" class="boutonEnvoyer" type="submit" value="Rechercher"/>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <a target="_blank" href="MentionsLegales.html">Mentions légales</a> |
+            <a target="_blank" href="QuiSommeNous.html">Qui sommes-nous</a> |
+            <a target="_blank" href="Contact.html">Contact</a> |
+            <a target="_blank" href="Actualités.html">Actualités</a> |
+            <a href="PlanSite.html">Plan du site</a>
+        </footer>
+    </body>
+    <script src="./js/recherche.js"></script>
+    <script type="module" src="./js/session.js"></script>
+</html>

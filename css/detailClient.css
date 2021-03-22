@@ -1,0 +1,177 @@
+
+/****************************
+Mise en page du detail client
+*****************************/
+#cadreContentDetailClient{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulaireDetailClient{ /* modifie le cadre colorie grey*/
+    margin-top: 50px;
+    height: 600px;
+}
+
+
+.formulaireDetailClient .creationData{   /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    /* display: inline-block; */
+    /* width: 150px; */
+    text-align: right;
+
+}
+
+/* controle l'ensemble des Block de class*/
+
+.ensembleBlockDetailClient{ 
+    background-color: grey;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px ;
+    margin-top: 5%;
+    margin-left: 20px;
+    width: 55%;
+    height: 80%;
+    box-shadow: 0px 0px 25px 2px black ;
+}
+.ensembleBlockDetailClient input{
+    background-color: white;
+}
+
+.detailClient1{ /* Fiche & Btn Contact Block*/
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.detailClient1 p{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.detailClient1 a{
+    margin: 5px auto;
+    width: 15%;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.detailClient2{ /* Domaine & chiffre Block*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+.detailClient2 label:nth-child(2){
+    margin-left: 10%;
+}
+.detailClient2 input{
+    width: 20%;
+    margin-right: 5%;
+}
+
+.detailClient3{ /* Adress Block*/
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.detailClient3Bis{ /* complement Block*/
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.detailClient3 input, .detailClient3Bis input{
+    margin-left: 20px;
+    width: 60%;
+}
+
+.detailClient4{ /* Société Block*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    margin-left: 20px;
+}
+
+.detailClient4 input{
+    width: 40%;
+}
+
+.detailClient5{ /* Téléphone Block*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 20px;
+}
+.detailClient5 input{
+    width: 40%;
+    margin-right: 15%;
+}
+
+.detailClientType{ /* Raison & Type Block*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+.detailClientType label:nth-child(2){
+    margin-left: 10%;
+}
+.detailClientType input{
+    width: 10%;
+    margin-right: 20%;
+}
+
+.infoContactDetailClient{ /* "Créer le:"  Block*/
+    margin-left: 45%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* parti reglage commentaire + button*/
+
+.detailClientReglageComs{ /*Block global texteArea*/
+    width: 420px;
+    margin-top: -12%;
+    margin-left: 65%;
+
+}
+
+.detailClientBoxCom textarea{
+    width: 400px;
+    height: 100px;
+}
+.detailClientReglageBtn{
+    display: flex;
+    justify-content: space-around;
+    width: 420px;
+    margin-top: 1.4%;
+    margin-left: 65%;
+}
+
+/*controle du deplacement logo de la société*/
+
+.detailClientLogoSociete{
+    margin-left: 60%;
+    margin-top: -40%;
+}
+
+.detailClientLogoSociete img{
+    border: 5px double #5CD7C0;
+}
+

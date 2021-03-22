@@ -1,0 +1,109 @@
+/*****************************
+Mise en Page des Ajout Client
+******************************/
+#cadreContentAddClient{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulaireInternAjouterClient{ /* modifie le cadre colorie grey*/
+    height: 600px;
+}
+
+.formulaireInternAjouterClient .creationData {   /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+
+}
+
+/* controle l'ensemble des class lignesBlock */
+.ensembleBlockAjouterClient{ 
+    background-color:#BEE5DC;
+    border-radius: 50px 10px 70px 10px ;
+    margin-top: 5%;
+    margin-left: 20px;
+    width: 55%;
+    height: 80%;
+    box-shadow: 0px 0px 25px 2px black ;
+}
+
+.ajouterClient1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ajouterClient1 label{
+    margin-left: 15%;
+}
+
+.ajouterClient2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ajouterClient3{
+    display: flex;
+    flex-direction: column;   
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.ajouterClient4, .ajouterClient5{
+    width: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ajouterClientType{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ajouterClientBtnAddContact{
+    display: flex;
+    width: 28%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* parti reglage commentaire + button*/
+
+.ajouterClientReglageComs{
+    width: 420px;
+    margin-top: -12%;
+    margin-left: 65%;
+}
+
+.ajouterClientBoxCom textarea{
+    width: 400px;
+    height: 100px;
+}
+
+.ajouterClientReglageBtn{
+    display: flex;
+    justify-content: space-around;
+    width: 420px;
+    margin-top: 1.4%;
+    margin-left: 65%;
+}
+
+/*controle du deplacement logo de la société*/
+
+.ajouterClientLogoSociete{
+    margin-left: 60%;
+    margin-top: -45%;  
+}
+
+.ajouterClientLogoSociete img{
+    border: 5px double #5CD7C0;
+}

@@ -1,0 +1,14 @@
+/**************************************
+Mise en Page Actualités
+***************************************/
+
+.titreActu {
+    font-weight: bold;
+}
+
+#actu {
+    display: flex;
+    flex-direction: column;
+    margin: 10em;
+    text-align: justify;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ABI - Détail client</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <div class="m-left">
+                    <a href="AccueilConnecte.html"><img src="media/image/logo.png" id="logo"/></a>
+                    <h1><span class="abi">A</span>ctive <span class="abi">B</span >retagne <span class="abi">I</span>nformatique</h1>
+                </div>
+                <div class="m-right">
+                    <!-- ajout du menu de navigation en liste deroulante -->
+                    <div class="dropdown">
+                        <button class="dropbtn">Menu
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="ListeClient.html">Liste Client</a>
+                            <a id="addingCl" href="AjouterClient.html">Ajouter Client</a>
+                            <a href="ListeContact.html">Liste Contact</a>
+                            <a id="addingCo" href="AjouterContact.html">Ajouter Contact</a>
+                            <a href="Rechercher.html">Recherche</a>
+                        </div>
+                    </div> <!-- Fin du menu deroulante -->
+                    <div class="user">
+                        <img id="userlogo" src="media/image/user.png" ></im>
+                        <p id="username">User name</p>
+                    </div>
+                <a href="index.html" id="deconnexion"><i class="fa fa-sign-out" aria-hidden="true"></i> Deconnexion</a>
+            </nav>
+        </header>
+        <div class="content" id="cadreContentDetailClient" >
+            <h1 class="message">Detail Client</h1>
+            <form class="formulaireDetailClient" method="GET" autocapitalize="characters" autocomplete="off"> 
+                <div class="ensembleBlockDetailClient" >
+
+                    <div class="detailClient1">
+                        <p> Fiche Client N° _._</p>
+                        <a href="ListeContact.html" class="button">Contact connu</a>
+                        <!-- <span><i class="fas fa-user-plus fa-3x"></i></span> -->
+                    </div>
+
+                    <div class="detailClient4">
+                        <label for="nomSociete">Nom société :</label><input type="text" id="nomSociete" disabled value="Google"/>
+                    </div>
+                    
+                    <div class="detailClient2">
+                        <label for="domaineActivitite">Domaine activité :</label><input type="text" id="domaineActivitite" disabled value="Technologie"/>
+                        <label for="chiffreAffaire">Chiffre d'affaire :</label><input type="text" id="chiffreAffaire" disabled value=" 900 000 000 $"/>
+                    </div>
+                   
+                    <div class="detailClient3">
+                        <label for="adresse">Adresse :</label><input type="text" id="adresse" disabled value="37, rue des Caféiers"/>
+                    </div>
+                    <div class="detailClient3Bis">
+                        <label for="complement">Complement :</label><input type="text" id="complement" disabled value=""/>
+                    </div>
+
+                    <div  class="detailClientType">
+                        <label for="raisonSociale">Raison sociale :</label><input type="text" id="raisonSociale" disabled value="SARL"/>
+                        <label for="typeCli">Type Client :</label><input type="text" id="typeCli" disabled value="Privé"/>
+                    </div>
+
+                    <div class="detailClient5">
+                        <label for="telephone">Téléphone :</label><input type="text" id="telephone"disabled value="0805-540-801"/>
+                    </div>
+
+                    <div class="infoContactDetailClient">
+                        <label class="dateCreerDetail" for="dateCreerDetailClient">Créer le :</label>
+                        <input type="text" id="dateCreerDetailClient" name="premiereDateCreation"  disabled placeholder="10/09/2012" readonly/>
+                    </div>
+                </div>
+                <div class="detailClientReglageComs">
+                    <div class="detailClientBoxCom"><textarea id="commentaire" name="comment" disabled placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cupiditate iste laudantium."></textarea></div>
+                </div>
+                <div class="detailClientReglageBtn" >
+                    <a href="AjouterClient.html"  id ="modifierclient"class="button">Modifier</a>
+                    <a href="ListeClient.html" class="button">Retour</a>
+                </div>
+                <div class="detailClientLogoSociete">
+                    <img src="https://picsum.photos/250/250" alt="logo de la société"/>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <a href="MentionsLegales.html" target="_blank" >Mentions légales</a> |
+            <a href="QuiSommeNous.html" target="_blank" >Qui sommes-nous</a> |
+            <a href="Contact.html" target="_blank" >Contact</a> |
+            <a href="Actualités.html" target="_blank" >Actualités</a> |
+            <a href="PlanSite.html">Plan du site</a>
+        </footer>
+    </body>
+    <script type="module" src="js/session.js"></script>
+</html>

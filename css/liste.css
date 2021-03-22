@@ -1,0 +1,65 @@
+/* Liste Général*/
+#btnListeContact, #btnListeClient{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+/***********************************
+Mise en Page de la page Liste Client
+************************************/
+ tbody tr:hover {
+    background-color: #ddd;
+}
+
+th, td {
+    padding: 15px;
+}
+
+thead {
+    background-color: #bee5dc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.boutonDetail {
+    background-color: #bee5dc;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#btnListeClient{
+    display: flex;
+    justify-content: space-between;
+} 
+
+#btnListeClient input{
+    margin-right: 500px;
+}
+
+.fixeFooter{
+   position: static;
+}
+
+/***********************************
+Mise en Page de la page Liste Contact
+************************************/
+#btnListeContact{
+    display: flex;
+    justify-content: space-between;
+} 
+
+#btnListeContact input{
+    margin-right: 500px;
+}
+
+.tablecontact{
+    float: bottom;
+}

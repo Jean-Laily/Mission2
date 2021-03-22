@@ -1,0 +1,23 @@
+#planSite 
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+#planSite p
+{
+    font-weight: bold;
+}
+
+#planSite a
+{
+    margin-bottom: 0.7em;
+}
+
+#allPlan
+{
+    display: flex;
+    flex-direction: row;
+}
+

@@ -1,0 +1,22 @@
+/*********************************
+Mise en Page de la page Recherche
+**********************************/
+.zoneAffichageSearch {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 400px;  
+}
+
+.recherchePar{
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.barreRecherche{
+    width: 100%;
+    margin:auto;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ABI - Accueil</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- HAUT DE LA PAGE -->
+        <header>
+            <nav class="menu">
+                <div class="m-left">
+                    <a href="index.html"><img src="media/image/logo.png" id="logo"/></a>
+                    <h1><span class="abi">A</span>ctive <span class="abi">B</span >retagne <span class="abi">I</span>nformatique</h1>
+                </div>
+            </nav>
+        </header>
+        <!-- CONTENU DE LA PAGE -->
+        <div class="content">
+            <!-- MESSAGE BIENVENU -->
+            <h1 class="message">Bienvenue</h1>
+            <!-- FORMULAIRE DE CONNEXION -->
+            <form class="formulaireReglageAccueil" action="AccueilConnecte.html" method="POST" id="formConnexion">  
+                <div class="identifiant">
+                    <p>Identifiant</p>
+                    <input type="text" id="id"maxlength="50" placeholder="Identifiant" required/>
+                </div>
+                <div class="mdp">
+                    <p>Mot de passe</p>
+                    <input type="password" id="mdp" maxlength="50" placeholder="Mot de passe" required/>
+                </div>
+                <input type="submit" value="Connexion" />
+            </form> 
+            <!-- ENCART GEOLOCALISATION -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.965164900728!2d55.65260040723725!3d-20.95531282938242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2178879665da9079%3A0xf06286d682bd6948!2sSPL%20AFPAR%20Centre%20de%20St%20Andr%C3%A9!5e0!3m2!1sfr!2sfr!4v1595417447424!5m2!1sfr!2sfr" width="900" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+            <!-- <input type="submit" class="button" value="Quitter">
+            <a href="AccueilConnecte.html" class="button">Quitter 1</a>
+            <button class="button" id="ajouterclient">Quitter 2</button> -->
+        <!-- PIED DE LA PAGE -->
+        <footer>
+            <a href="MentionsLegales.html" >Mentions légales</a> |
+            <a href="QuiSommeNous.html" >Qui sommes-nous</a> |
+            <a href="Contact.html" >Contact</a> |
+            <a href="Actualités.html" >Actualités</a>
+        </footer>
+    </body>
+    <script type="module"src="js/connexion.js"></script>
+</html>

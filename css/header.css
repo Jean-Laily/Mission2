@@ -1,0 +1,114 @@
+/*********************
+Mise en page du Header
+**********************/    
+/* CSS header*/
+header{
+    background:#ccc;
+    position: fixed;
+    width:100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.menu img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+  }
+.menu {
+    background: #ccc;
+    width: 100%;
+    height: 66px;
+    line-height: 66px;
+}
+
+.m-left ,.m-left img, .m-left h1 {
+    float: left;
+    height: inherit;
+}
+
+.m-right {
+    float: right;
+    height: inherit;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.user {
+    float: left;
+    height: 35px;
+    background: #fff;
+    border-radius: 31px;
+    vertical-align: middle;
+    display: table-cell;
+    line-height: 35px;
+    margin-right: 10px;
+}
+.user p, .user img {
+    float: left;
+}
+.m-left h1 {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+#username {
+    padding: 0 10px 0 10px;
+}
+#deconnexion, .dropdown {
+    background-color: #5CD7C0;
+    border-radius: 31px;
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+
+}
+.m-right a:hover {
+    background-color: #45BB9D;
+
+}
+
+.abi {
+    color: #45BB9D;
+}
+
+
+.dropbtn {
+    font-size: 16px;
+}
+.dropdown .dropbtn { 
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  } 
+  
+.dropdown .dropbtn {
+    background-color: #5CD7C0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    margin-left: -10px;
+  }
