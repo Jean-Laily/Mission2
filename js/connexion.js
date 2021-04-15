@@ -3,10 +3,8 @@ import {setCookie} from './cookie.js'
 
 // collection d'objet Array
 var userlist = new Array;
-userlist[0] = new Array("Romain","afpar",1)
-userlist[1] = new Array("Iris","afpar",1)
-userlist[2] = new Array("Laily","afpar",1)
-userlist[3] = new Array("Afpar", "afpar", 2)
+userlist[0] = new Array("admin","admin123",1)
+userlist[1] = new Array("user","user123",2)
 
 // verification des input lors de la connexion
 document.getElementById("formConnexion").onsubmit = function() {
