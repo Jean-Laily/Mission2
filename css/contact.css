@@ -2,12 +2,15 @@
 Mise en Page Contact
 ***************************************/
 
-#titreContact
+.titreContact
 {
+    position: relative;
+    top: 200px;
+    left: 120px;
     font-weight: bold;
 }
 
-#contact
+.contactColor
 {
     color: red;
     font-weight: bold;
