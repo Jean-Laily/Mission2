@@ -32,13 +32,14 @@ function afficherliste(client) {
     elApp.innerHTML += "Aucune ligne trouvée";
   }
 }
+
 // affiche le tableau de client
 afficherliste(tableClient);
 
 // rechercher un client par nom de societe
-  document.querySelectorAll("input[type=search]")[0].addEventListener("input", function() {
-    const filteredData = tableClient.filter(client =>
-        client.getNomSociete().toLowerCase().includes(this.value.toLowerCase())
-      );
-    afficherliste(filteredData);
-  });
+document.querySelectorAll("input[type=search]")[0].addEventListener("input", function() {
+  const filteredData = tableClient.filter(client =>
+      client.getNomSociete().toLowerCase().includes(this.value.toLowerCase())
+    );
+  afficherliste(filteredData);
+});
