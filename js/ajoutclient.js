@@ -30,6 +30,7 @@ document.getElementById("btnAjouterClient").addEventListener("click",function ()
 })
 // affiche la date de création du client
 document.getElementById("creationData").valueAsDate = new Date()
+
 // verifie que le numero client est valide
 document.getElementById("numClient").addEventListener("blur",function() {
     if (this.value == "") {
